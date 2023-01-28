@@ -21,6 +21,11 @@ SET time_zone = "+00:00";
 -- Database: `how_to`
 --
 
+
+DROP SCHEMA IF EXISTS how_to;
+CREATE SCHEMA how_to;
+USE how_to;
+
 -- --------------------------------------------------------
 
 --
